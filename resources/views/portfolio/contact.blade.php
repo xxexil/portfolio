@@ -1,15 +1,15 @@
 @extends('layouts.portfolio')
 
-@section('title', 'Contact - Alex Chen')
-@section('description', 'Get in touch with Alex Chen for collaboration opportunities, project inquiries, or technical discussions.')
+@section('title', 'Contact - Renz Ivan Polancos')
+@section('description', 'Get in touch with Renz Ivan Polancos for collaboration opportunities, project inquiries, or technical discussions.')
 
 @section('content')
 <!-- Hero Section -->
-<section class="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
+<section class="py-20 bg-slate-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
             <h1 class="text-5xl font-bold text-white mb-6">Let's Connect</h1>
-            <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p class="text-xl text-slate-400 max-w-3xl mx-auto">
                 Ready to collaborate on your next project? I'd love to hear from you and discuss how we can work together.
             </p>
         </div>
@@ -17,13 +17,13 @@
 </section>
 
 <!-- Contact Section -->
-<section class="py-20 bg-gray-800">
+<section class="py-20 bg-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-16">
             <!-- Contact Information -->
             <div>
                 <h2 class="text-3xl font-bold text-white mb-8">Get In Touch</h2>
-                <p class="text-gray-400 mb-8">
+                <p class="text-slate-400 mb-8">
                     Whether you have a project in mind, need technical consultation, or just want to connect, 
                     I'm always open to discussing new opportunities and innovative ideas.
                 </p>
@@ -38,8 +38,8 @@
                         </div>
                         <div>
                             <h3 class="text-white font-semibold">Email</h3>
-                            <a href="mailto:alex.chen@email.com" class="text-blue-400 hover:text-blue-300 transition-colors">
-                                alex.chen@email.com
+                            <a href="mailto:polancosivan@gmail.com" class="text-blue-400 hover:text-blue-300 transition-colors">
+                                polancosivan@gmail.com
                             </a>
                         </div>
                     </div>
@@ -53,8 +53,8 @@
                         </div>
                         <div>
                             <h3 class="text-white font-semibold">Phone</h3>
-                            <a href="tel:+1234567890" class="text-green-400 hover:text-green-300 transition-colors">
-                                +1 (234) 567-8900
+                            <a href="tel:+639381927446" class="text-green-400 hover:text-green-300 transition-colors">
+                                +639381927446
                             </a>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                         </div>
                         <div>
                             <h3 class="text-white font-semibold">Location</h3>
-                            <p class="text-purple-400">San Francisco, CA</p>
+                            <p class="text-purple-400">Digos City, Philippines</p>
                         </div>
                     </div>
                 </div>
@@ -128,9 +128,10 @@
                         <select id="project-type" name="project-type" 
                                 class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors">
                             <option value="">Select a project type</option>
-                            <option value="web-development">Web Development</option>
-                            <option value="hardware-project">Hardware Project</option>
-                            <option value="iot-solution">IoT Solution</option>
+                            <option value="frontend-development">Frontend Development</option>
+                            <option value="ui-ux-design">UI/UX Design</option>
+                            <option value="responsive-website">Responsive Website</option>
+                            <option value="react-vue-app">React/Vue Application</option>
                             <option value="consultation">Technical Consultation</option>
                             <option value="collaboration">General Collaboration</option>
                             <option value="other">Other</option>
@@ -184,9 +185,8 @@
                 </button>
                 <div class="faq-content hidden px-6 pb-6">
                     <p class="text-gray-400">
-                        I specialize in hardware engineering projects (embedded systems, IoT devices, PCB design) and web development 
-                        (full-stack applications, responsive websites, e-commerce platforms). I particularly enjoy projects that combine 
-                        both hardware and software components.
+                        I specialize in frontend development projects including responsive websites, user interface design, interactive web applications, 
+                        and modern frontend solutions. I focus on creating beautiful, accessible, and performant user experiences.
                     </p>
                 </div>
             </div>
@@ -202,8 +202,8 @@
                 </button>
                 <div class="faq-content hidden px-6 pb-6">
                     <p class="text-gray-400">
-                        Project timelines vary depending on complexity. Simple web applications typically take 2-4 weeks, while 
-                        hardware projects with custom PCB design can take 6-12 weeks. I always provide detailed timelines during 
+                        Project timelines vary depending on complexity. Simple landing pages typically take 1-2 weeks, while 
+                        complex interactive applications with custom animations can take 4-8 weeks. I always provide detailed timelines during 
                         the initial consultation phase.
                     </p>
                 </div>
